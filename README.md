@@ -2,6 +2,8 @@
 
 Desenvolvido em Java e MySQL, o sistema consiste em adicionar os personagens e sua ficha básica de descrição no sistema Java, que possui conexão com o banco de dados MySQL, onde está sendo armazenado as informações enviadas pelo usuário.
 
+---
+
 # Funcionalidades acerca do código
 
 Primeiramente, é preciso criar a database (software de sua preferência) e conectar com a IDE  escolhida. No caso, dei preferência ao Apache NetBeans.
@@ -30,6 +32,7 @@ Logo após, é necessário se atentar aos metódos e se a conexão está correta
 
 ![image](https://github.com/user-attachments/assets/f5ae80b9-ef94-4ded-8fc9-07e448f00b09)
 
+---
 
 # Funcionamento
 
@@ -41,6 +44,9 @@ Agora, vamos consultar a lista, que estará incluso o personagem que adicionamos
 
 ![image](https://github.com/user-attachments/assets/62cc6c4d-9266-452d-8827-7a4c665ea4c6)
 
+---
 
+### Stack Utilizada
 
+**Back-End**: Java
 
