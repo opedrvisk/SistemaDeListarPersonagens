@@ -1,0 +1,57 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 14 de mai. de 2025, 13:16:58
+    Author     : Pedrovisk
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(emilia.png);
+    background-size: cover;   
+    background-position: center;
+    text-align: center;
+   
+}
+
+.container {
+    
+    width: 450px;
+    height: 400px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    color: white;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    margin-left: 300px;
+}
+
+.container h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+form input {
+  margin-bottom: 12px; 
+}
+
+form button {
+  margin: 5px;
+}
