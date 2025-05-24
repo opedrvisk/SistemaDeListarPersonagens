@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="estilos/styles.css"/>
+        <title>Listagem de Personagens</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <main class="container">
+        <h1>Vamos listar personagens!</h1>
+        <div>
+            <form action="ControlePersonagens" method="GET">
+                <div> 
+                    <label> Id: </label>
+                    <input class="buttons" type="text" name="txtid">
+                </div>
+                <div> 
+                    <label> Nome: </label>
+                    <input class="buttons" type="text" name="txtnome">
+                </div>
+                <div> 
+                    <label> Descrição: </label>
+                    <input class="buttons" type="text" name="txtdescricao">
+                </div>
+                <div> 
+                    <label> Avaliação: </label>
+                    <input class="buttons" type="text" name="txtavaliacao">
+                </div>
+                <br>
+                <input class="buttons" type="submit" name="op" value="Cadastrar">
+                <input class="buttons" type="submit" name="op" value="Deletar">
+                <input class="buttons" type="submit" name="op" value="Atualizar"> 
+                <input class="buttons" type="submit" name="op" value="Consultar">    
+                <input class="buttons" type="submit" name="op" value="ConsultarTodos"> 
+            </form> 
+        </div>
+        </main>
+    </body>
+</html>
