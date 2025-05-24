@@ -1,6 +1,6 @@
 # Sistema para listagem de personagens
 
-Desenvolvido em Java e MySQL, o sistema consiste em adicionar os personagens e sua ficha básica de descrição no sistema Java, que possui conexão com o banco de dados MySQL, onde está sendo armazenado as informações enviadas pelo usuário.
+Desenvolvido em Java e MySQL, o sistema consiste em adicionar os personagens e sua ficha básica de descrição no sistema Java, junto do uso de Servlet e JSP, possuindo conexão com o banco de dados MySQL, onde está sendo armazenado as informações enviadas pelo usuário.
 
 ![image](https://github.com/user-attachments/assets/c0e04e01-dd1f-4ded-8c96-40812940e5c8)
 
